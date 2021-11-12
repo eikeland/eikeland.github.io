@@ -80,6 +80,7 @@ module.exports = {
 	},
 	devtool: 'source-map',
 	output: {
+		path: path.resolve(__dirname, 'assets/js'),
 		filename: '[name].js'
 	},
 	plugins: [
