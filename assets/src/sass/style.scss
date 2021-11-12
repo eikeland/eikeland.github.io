@@ -1,0 +1,49 @@
+/**!
+ * Theme for eikeland.me
+ */
+@import 'mods/mods';
+
+:root {
+	--light: #ffffff;
+	--dark: #000000;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*, 
+*::before, 
+*::after {
+	box-sizing: inherit;
+	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	font: 400 1em/1.4 'Kanit', sans-serif;
+	display: flex;
+}
+
+section {
+	background: #545454 url('assets/img/crew_at_mcd.jpg') no-repeat center top;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	h1 {
+		font-weight: 900;
+		text-transform: uppercase;
+		letter-spacing: 2pt;
+		font-size: 10vw;
+		color: var(--light);
+		text-shadow:
+			.035em .035em 0 rgba(14, 66, 245, 1),
+			.06em .06em 0 rgba(#0cddf5, 1),
+			.085em .085em 0 rgba(245, 14, 202, 1),
+			.11em .11em 0 rgba(245, 225, 12, 1);
+	}
+}

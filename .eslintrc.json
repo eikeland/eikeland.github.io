@@ -1,0 +1,31 @@
+{   
+	"plugins": [
+		"react"
+	],
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended"
+	],
+	"parserOptions": {
+		"sourceType": "module",
+		"ecmaVersion": 12,
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"globals": {
+		"require": "readonly",
+		"process": "readonly",
+		"module": "readonly"
+	},
+	"rules": {
+		"indent": ["error", "tab"],
+		"semi": "error",
+		"quotes": ["error", "single"],
+		"react/prop-types": [0]
+	}
+}

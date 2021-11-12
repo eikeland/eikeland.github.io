@@ -1,0 +1,2 @@
+!function(){"use strict";var e=function(e){var n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:document;return n.querySelector(e)}("h1");console.log("h1",e)}();
+//# sourceMappingURL=main.js.map
