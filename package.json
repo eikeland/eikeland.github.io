@@ -52,10 +52,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@gitlab.com:zpirit/prosedyrer.git"
+		"url": "git+ssh://git@github.com:eikeland/eikeland.github.io.git"
 	},
 	"bugs": {
-		"url": "https://gitlab.com/zpirit/prosedyrer/-/issues"
+		"url": "https://github.com/eikeland/eikeland.github.io/issues"
 	},
-	"homepage": "https://dev.zpirit.no/prosedyrer"
+	"homepage": "https://eikeland.me"
 }
