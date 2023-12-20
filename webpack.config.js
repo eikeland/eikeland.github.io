@@ -69,11 +69,11 @@ module.exports = {
 	},
 	devServer: {
 		// use ypur own ssl certs here, ask eikeland for help setting up.
-		https: {
-			key: '/Applications/MAMP/conf/ssl/eikeland.pem',
-			cert: '/Applications/MAMP/conf/ssl/eikeland.pem',
-			ca: '/Applications/MAMP/conf/ssl/eikeland.pem',
-		},
+		// https: {
+		// 	key: '/Applications/MAMP/conf/ssl/eikeland.pem',
+		// 	cert: '/Applications/MAMP/conf/ssl/eikeland.pem',
+		// 	ca: '/Applications/MAMP/conf/ssl/eikeland.pem',
+		// },
 		hot: true,
 		static: path.join(__dirname, ''),
 		allowedHosts: ['*']
