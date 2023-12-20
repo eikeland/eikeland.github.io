@@ -1,0 +1,2 @@
+!function(){const n=["crew_at_mcd.jpg","stv_bukken.jpg"],t=()=>{const e=document.querySelector("section");e||t();const o=n[Math.floor(Math.random()*n.length)];o||console.warn("Missing bg image"),e.style.backgroundImage=`url(/assets/img/${o})`};t()}();
+//# sourceMappingURL=main.js.map

@@ -13,26 +13,26 @@
 	"license": "ISC",
 	"devDependencies": {
 		"@babel/cli": "^7.16.0",
-	    "@babel/core": "^7.16.0",
-	    "@babel/preset-env": "^7.16.0",
-	    "@babel/preset-react": "^7.16.0",
-	    "babel-loader": "^8.2.3",
-	    "file-loader": "^6.2.0",
-	    "postcss-loader": "^6.2.0",
-	    "postcss-normalize": "^8.0.1",
-	    "postcss-preset-env": "^6.7.0",
-	    "postcss-safe-parser": "^5.0.2",
-	    "postcss-flexbugs-fixes": "^5.0.2",
-	    "css-loader": "^6.5.0",
-	    "eslint": "^7.32.0",
-	    "eslint-plugin-react": "^7.26.1",
-	    "mini-css-extract-plugin": "^2.4.3",
-	    "node-sass": "^6.0.1",
-	    "sass-loader": "^12.3.0",
-	    "style-loader": "^3.3.1",
-	    "webpack": "^5.61.0",
-	    "webpack-cli": "^4.9.1",
-	    "webpack-dev-server": "^4.4.0"
+		"@babel/core": "^7.16.0",
+		"@babel/preset-env": "^7.16.0",
+		"@babel/preset-react": "^7.16.0",
+		"babel-loader": "^8.2.3",
+		"css-loader": "^6.5.0",
+		"eslint": "^7.32.0",
+		"eslint-plugin-react": "^7.26.1",
+		"file-loader": "^6.2.0",
+		"mini-css-extract-plugin": "^2.4.3",
+		"node-sass": "^9.0.0",
+		"postcss-flexbugs-fixes": "^5.0.2",
+		"postcss-loader": "^6.2.0",
+		"postcss-normalize": "^8.0.1",
+		"postcss-preset-env": "^6.7.0",
+		"postcss-safe-parser": "^5.0.2",
+		"sass-loader": "^13.3.2",
+		"style-loader": "^3.3.1",
+		"webpack": "^5.61.0",
+		"webpack-cli": "^4.9.1",
+		"webpack-dev-server": "^4.4.0"
 	},
 	"dependencies": {
 		"react": "^17.0.1",
@@ -52,10 +52,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@gitlab.com:zpirit/prosedyrer.git"
+		"url": "git+ssh://git@github.com:eikeland/eikeland.github.io.git"
 	},
 	"bugs": {
-		"url": "https://gitlab.com/zpirit/prosedyrer/-/issues"
+		"url": "https://github.com/eikeland/eikeland.github.io/issues"
 	},
-	"homepage": "https://dev.zpirit.no/prosedyrer"
+	"homepage": "https://eikeland.me"
 }
